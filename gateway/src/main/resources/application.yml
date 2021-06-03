@@ -27,4 +27,9 @@ zuul:
     ms-empregado:
       service-id: ms-empregado
       path: /ms-empregado/**
-  
+    ms-pagamento:
+      service-id: /ms-pagamento/
+      path: /ms-pagamento/**
+    ms-usuario:
+      service-id: /ms-usuario/
+      path: /ms-usuario/**
